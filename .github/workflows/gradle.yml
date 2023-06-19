@@ -14,6 +14,6 @@ jobs:
         with:
           java-version: 17
       - name: Setup
-        run: chmod +x gradlew && ./gradlew setup
+        run: chmod +x gradlew && ./gradlew clean
       - name: Build with Gradle
         run: chmod +x gradlew && ./gradlew build
